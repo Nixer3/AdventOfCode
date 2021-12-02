@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    FILE *fin = fopen("slova.txt","r");
+    FILE *fin = fopen("inputs","r");
     int absX=0;
     int absY=0;
     char dir[20];
