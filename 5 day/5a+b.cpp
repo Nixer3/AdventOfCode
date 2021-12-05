@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <iomanip>
+#include <math.h>
 using namespace std;
 enum OPT {A, B};
 #define MYOPT B
