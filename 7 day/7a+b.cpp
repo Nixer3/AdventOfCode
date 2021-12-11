@@ -31,7 +31,7 @@ int main() {
         for (int c : crabs) { //calculate (sum) rating
             int r = abs(i - c);
             if (OPTION == B)
-                r = (r + 0 + 1)* (r + 0) / 2; // sum range 0->r
+                r = (r - 0 + 1)* (r + 0) / 2; // sum range 0->r
             diffsum += r;
         }
         rating.insert(pair<int, unsigned int>(i, diffsum));
